@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.display-color {
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid black;
+  color: white;
+  background: black;
+  font-size: 3rem;
+  border-radius: 10px;
+}
+
+.change-color {
+  margin: 2rem;
+  padding: .5rem;
+  background: none;
+  border: 2px solid black;
+  font-size: 3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.change-color:hover {
+  color: white;
+  background: black;
+}
